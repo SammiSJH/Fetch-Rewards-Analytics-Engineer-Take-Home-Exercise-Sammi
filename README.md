@@ -7,18 +7,32 @@ Welcome! This repository contains the files for Fetch Rewards' Take Home Exercis
 The notebook (`.ipynb`) contains all the responses to the questions provided. For your review, you should only need to read through the contents of the notebook for the entirety of the exercise.
 
 ## Contents
-* [Getting Started](#getting-started)
-	* [Dependencies](#dependencies)
-	* [Technical Information](#technical-information)
-* [Authors](#authors)
+- [Fetch Rewards - Analytics Engineer - Take Home Exercise](#fetch-rewards---analytics-engineer---take-home-exercise)
+	- [Description](#description)
+	- [Contents](#contents)
+	- [Getting Started](#getting-started)
+		- [Installing Libraries](#installing-libraries)
+		- [Technical Information](#technical-information)
+	- [Authors](#authors)
 
 ## Getting Started
 
-### Dependencies
+### Installing Libraries
+
+If you don't have the required libraries installed, you can install them using `pip`. Follow the instructions below:
+
+1. Open a terminal or command prompt.
+2. Run the following command to install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
 
 This notebook uses the following modules that may require you to install the appropriate packages:
-- pandas > v2.2.3
-- pandasql
+- pandas: 2.2.3
+- numpy: 2.1.3
+- pandasql: 0.7.3
+- ipython: 8.29.0
 
 ### Technical Information
 
